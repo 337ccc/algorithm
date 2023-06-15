@@ -113,3 +113,15 @@ print(alphabet)
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']  
 </pre>
 <br>
+
+## 8) if arr:
+<pre>
+arr = []
+# 만약 arr가 비어있지 않다면
+if arr:
+    print("true")
+
+결과)
+true
+</pre>  
+<br>
