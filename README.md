@@ -125,3 +125,54 @@ if arr:
 true
 </pre>  
 <br>
+
+## 9) 아스키코드
+- 알파벳 소문자, 대문자, 숫자 => 아스키 코드 값
+<pre>
+word = A
+print(ord(word))
+
+결과) 65
+</pre>  
+<br>
+
+## 10) format 함수
+- 소수점 아래 n째 자리까지 출력
+<pre>
+answer = 40.0
+print("{:.3f}".format(answer))
+
+결과)
+40.000
+</pre>  
+<br>
+
+## 11) 오름차순 정렬
+<pre>
+arr = [2, 3, 1, 5, 4]
+arr.sort()
+print(arr)
+
+결과)
+[1, 2, 3, 4, 5]
+</pre>  
+<br>
+
+## 12) bisect
+- bisect_left(list, n) : list에 n을 삽입할 때, 가장 왼쪽에 해당하는 인덱스
+- bisect_right(list, n) : list에 n을 삽입할 때, 가장 오른쪽에 해당하는 인덱스
+<pre>
+from bisect import bisect_left, bisect_right
+
+arr = [6, 3, 2, 10, 10, 10, -10, -10, 7, 3]
+arr.sort()
+print(arr)
+print(bisect_left(arr, 10))
+print(bisect_right(arr, 10))
+
+결과)
+[-10, -10, 2, 3, 3, 6, 7, (n,) 10, 10, 10, (n)]
+7
+10
+</pre>  
+<br>
