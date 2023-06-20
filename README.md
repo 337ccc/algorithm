@@ -176,3 +176,25 @@ print(bisect_right(arr, 10))
 10
 </pre>  
 <br>
+
+## 13) replace (출처 : https://blog.naver.com/aneminw/222416095789)
+<pre>
+name = 'webisfree'
+name.replace('free', 'world')
+
+결과)
+webisworld
+</pre>
+
+<pre>
+name = 'webisfree'
+name.replace('e', 'x', 1)
+name.replace('e', 'x', 2)
+name.replace('e', 'x', 3)
+
+결과)
+wxbisfree
+wxbisfrxe
+wxbisfrxx
+</pre>  
+<br>
